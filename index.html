@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body class="bg-red-300">
+    <!-- container  -->
+    <div class="">
+        <!-- product -->
+        <div class="flex flex-col gap-4 md:flex-row w-auto md:w-1/3 mx-auto mt-10  bg-white border rounded">
+            <!-- image  -->
+            <div>
+                <img class="h-full object-cover" src="img/image-product-desktop.jpg" alt="">
+            </div>
+            <!-- body -->
+            <div class="flex flex-col gap-4 mt-5 px-2 md:px-5">
+                <span class="uppercase tracking-[.50em]">perfume</span>
+                <h2 class="text-3xl font-extrabold capitalize font-serif">Gabrielle Essense Eau De Parfum</h2>
+                <p>A floral, solar and voluptuous interpretation composed by olivier polge perfumer cretor for the hose of channel.</p>
+                <!-- price -->
+                <div class="relative">
+                    <h2 class="text-green-600 font-bold text-4xl font-serif">$149.99</h2>
+                    <span class="text-zinc-500 line-through font-bold text-sm absolute top-1 left-[130px]">$169.99</span>
+                </div>
+                <div class="py-5">
+                   
+                <button class="flex text-white bg-green-700 px-10 py-4 font-sans font-bold ">
+                        <img class="mx-2" src="img/icon-cart.svg" alt=""> 
+                       Add to Cart
+                </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
